@@ -1,11 +1,15 @@
 .root{
-    -fx-background-color: #1e90ff;
+   -fx-background-image: url(QUIZZLER1.png);
+   -fx-background-repeat: no-repeat;
+   -fx-background-size: cover;
  }
  
  .label{
     -fx-font-size: 20pt;
     -fx-text-fill: "white";
     -fx-alignment: center;
+    -fx-layoutX: 300;
+    -fx-layoutX: 200;
  }
  
  .button{
@@ -22,3 +26,4 @@
  .button:pressed{
     -fx-background-color: #67d5fa;
  }
+

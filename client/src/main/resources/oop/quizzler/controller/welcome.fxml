@@ -4,11 +4,11 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="302.0" prefWidth="296.0" stylesheets="@../../../../java/oop/quizzler/controller/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.quizzler.controller.WelcomeController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.quizzler.controller.WelcomeController">
    <children>
-      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutY="59.0" prefHeight="39.0" prefWidth="297.0" text="Welcome to " />
-      <Button fx:id="localGame" alignment="CENTER" contentDisplay="CENTER" layoutX="89.0" layoutY="251.0" onAction="#switchToMenu" prefHeight="25.0" prefWidth="93.0" text="Local Game" textAlignment="CENTER" />
-      <Button fx:id="joinGame" alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="197.0" mnemonicParsing="false" onAction="#switchToEnterIp" text="Join Game" textAlignment="CENTER" />
-      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutY="111.0" prefHeight="39.0" prefWidth="298.0" text="Quizzler!" />
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutY="76.0" prefHeight="39.0" prefWidth="482.0" stylesheets="@style.css" text="Welcome to " textAlignment="CENTER" />
+      <Button fx:id="localGame" alignment="CENTER" contentDisplay="CENTER" layoutX="194.0" layoutY="314.0" onAction="#switchToMenu" prefHeight="25.0" prefWidth="93.0" stylesheets="@style.css" text="Local Game" textAlignment="CENTER" />
+      <Button fx:id="joinGame" alignment="CENTER" contentDisplay="CENTER" layoutX="205.0" layoutY="249.0" mnemonicParsing="false" onAction="#switchToEnterIp" stylesheets="@style.css" text="Join Game" textAlignment="CENTER" />
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutY="142.0" prefHeight="39.0" prefWidth="482.0" stylesheets="@style.css" text="Quizzler!" textAlignment="CENTER" />
    </children>
 </AnchorPane>

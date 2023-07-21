@@ -29,7 +29,6 @@ public class StartQuizzler extends Application {
         try{
             scene = new Scene(loadFXML("welcome"), 640, 480);
             stage.setScene(scene);
-            scene.getStylesheets().add("style.css");
             stage.show();
 
         } catch(IOException e) {
